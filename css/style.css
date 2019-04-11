@@ -1,0 +1,637 @@
+@font-face {
+  font-family: "kittithada_thin_35_rd_proRg";
+  src: url("../fonts/psl367pro-webfont.woff2") format("woff2"), url("../fonts/psl367pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_thin_35_rd_proIt";
+  src: url("../fonts/psl368pro-webfont.woff2") format("woff2"), url("../fonts/psl368pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_light_45_rd_proRg";
+  src: url("../fonts/psl369pro-webfont.woff2") format("woff2"), url("../fonts/psl369pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_light_45_rd_proIt";
+  src: url("../fonts/psl370pro-webfont.woff2") format("woff2"), url("../fonts/psl370pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_roman_55_rd_proRg";
+  src: url("../fonts/psl371pro-webfont.woff2") format("woff2"), url("../fonts/psl371pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_roman_55_rd_proIt";
+  src: url("../fonts/psl372pro-webfont.woff2") format("woff2"), url("../fonts/psl372pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_medium_65_rd_proRg";
+  src: url("../fonts/psl373pro-webfont.woff2") format("woff2"), url("../fonts/psl373pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_medium_65_rd_proIt";
+  src: url("../fonts/psl374pro-webfont.woff2") format("woff2"), url("../fonts/psl374pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_bold_75_rd_proRg";
+  src: url("../fonts/psl375pro-webfont.woff2") format("woff2"), url("../fonts/psl375pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_bold_75_rd_proIt";
+  src: url("../fonts/psl376pro-webfont.woff2") format("woff2"), url("../fonts/psl376pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "cordia_newregular";
+  src: url("../fonts/cordia_0-webfont.woff2") format("woff2"), url("../fonts/cordia_0-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_thin_35_rd_proRg";
+  src: url("../fonts/psl367pro-webfont.woff2") format("woff2"), url("../fonts/psl367pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_thin_35_rd_proIt";
+  src: url("../fonts/psl368pro-webfont.woff2") format("woff2"), url("../fonts/psl368pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_light_45_rd_proRg";
+  src: url("../fonts/psl369pro-webfont.woff2") format("woff2"), url("../fonts/psl369pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_light_45_rd_proIt";
+  src: url("../fonts/psl370pro-webfont.woff2") format("woff2"), url("../fonts/psl370pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_roman_55_rd_proRg";
+  src: url("../fonts/psl371pro-webfont.woff2") format("woff2"), url("../fonts/psl371pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_roman_55_rd_proIt";
+  src: url("../fonts/psl372pro-webfont.woff2") format("woff2"), url("../fonts/psl372pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_medium_65_rd_proRg";
+  src: url("../fonts/psl373pro-webfont.woff2") format("woff2"), url("../fonts/psl373pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_medium_65_rd_proIt";
+  src: url("../fonts/psl374pro-webfont.woff2") format("woff2"), url("../fonts/psl374pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_bold_75_rd_proRg";
+  src: url("../fonts/psl375pro-webfont.woff2") format("woff2"), url("../fonts/psl375pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "kittithada_bold_75_rd_proIt";
+  src: url("../fonts/psl376pro-webfont.woff2") format("woff2"), url("../fonts/psl376pro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: "Pridi" !important; }
+
+.sliderItem {
+  width: 80px;
+  height: 45px !important;
+  font-size: 1.4em;
+  padding-top: 5px;
+  text-align: center;
+  color: #cccccc;
+  border-right: 1px solid #cccccc; }
+
+.slick-active {
+  outline: none;
+  box-shadow: none !important; }
+
+.slick-center {
+  color: #e37826 !important;
+  font-weight: bold !important; }
+
+/*------- style for scroll age ------- */
+.scroll-box {
+  background-color: #ffffff;
+  padding: 2% 2%;
+  margin: 6% 0%;
+  border-radius: 8px; }
+  .scroll-box .listitem {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .scroll-box .listitem .item {
+      width: 50px;
+      height: 40px;
+      float: left;
+      line-height: 30px;
+      text-align: center;
+      border-right: 2px solid #ccc;
+      color: #ccc;
+      font-size: 1.6em; }
+    .scroll-box .listitem .addbg {
+      color: orange;
+      font-weight: bold;
+      font-size: 2.3em; }
+
+/*-------------- end -------------- */
+.logo {
+  width: auto;
+  height: 45px; }
+
+.alertform {
+  border: 2px solid red !important; }
+
+.alert-box {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 4% 0%;
+  display: none; }
+
+.section-title h3 {
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 2.5em;
+  font-family: "kittithada_bold_75_rd_proRg"; }
+.section-title p {
+  font-size: 1.4em;
+  line-height: 1.6em; }
+
+.form-control:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  outline: none !important; }
+
+.fwd-form {
+  border: none;
+  background-color: #ffffff !important;
+  border-radius: 30px !important;
+  height: 50px;
+  font-size: 1.2em !important; }
+
+.btn-fwdgender {
+  border-color: #e37826; }
+
+input::placeholder {
+  opacity: 0.7 !important;
+  text-align: center; }
+
+select {
+  text-align: center;
+  border: none !important;
+  background-color: #ffffff !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  color: #cccccc !important;
+  font-size: 0.9em !important;
+  -webkit-appearance: none;
+  appearance: none;
+  background: url(../images/icon/arraw.png) no-repeat right;
+  background-position-x: 93%;
+  background-size: 10px; }
+
+.selectChange {
+  color: #333333 !important; }
+
+.fwd-navbar p {
+  font-size: 1em;
+  line-height: 1.4em;
+  font-weight: 200;
+  margin: 0;
+  text-align: right; }
+
+.fwd-fluidback {
+  height: 350px;
+  background: url("../images/key/keyvisual.jpg") no-repeat;
+  background-size: 100% auto;
+  background-position-Y: 75%; }
+
+.fwd-banner {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  position: relative; }
+  .fwd-banner h4 {
+    color: #e37826;
+    font-weight: bold;
+    position: absolute;
+    font-size: 5em;
+    line-height: 0.8em;
+    bottom: 1.1em;
+    font-family: "kittithada_bold_75_rd_proRg"; }
+  .fwd-banner p {
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    font-size: 2em;
+    line-height: 1.2em;
+    font-weight: 300; }
+
+.btnSend {
+  padding: 2% 0%;
+  border: 2px solid #333333;
+  background-color: #ffd045;
+  font-family: "kittithada_bold_75_rd_proRg";
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 1.6em;
+  width: 100%; }
+
+.btnContact {
+  width: 100%;
+  padding: 1% 0%;
+  border-radius: 30px !important;
+  border: 2px solid #ffffff !important;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.4em !important;
+  background-color: #324d50; }
+  .btnContact:hover, .btnContact:active {
+    background-color: #ffffff;
+    color: #324d50;
+    transition: 0.7s; }
+
+.fwd-feature {
+  padding: 40px 0px; }
+  .fwd-feature .box-feature img {
+    width: 35%;
+    margin: 0 auto;
+    display: block; }
+  .fwd-feature .box-feature .txtfea {
+    text-align: center;
+    margin-top: 20px; }
+    .fwd-feature .box-feature .txtfea h3 {
+      font-weight: bold;
+      font-size: 2.2em;
+      font-family: "kittithada_bold_75_rd_proRg"; }
+    .fwd-feature .box-feature .txtfea p {
+      font-size: 1.2em;
+      line-height: 1.1em;
+      font-weight: 200; }
+
+.fwd-callback {
+  padding: 40px 0px;
+  background-color: #ffd045;
+  height: 100%; }
+  .fwd-callback .fwd-check input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    width: 25px;
+    height: 25px; }
+  .fwd-callback .fwd-check input[type=checkbox]:checked ~ .fwd-confirm {
+    background-color: #e37826; }
+  .fwd-callback .fwd-check input[type=checkbox]:checked ~ .fwd-confirm:after {
+    display: block; }
+  .fwd-callback .fwd-check .fwd-confirm {
+    width: 25px;
+    height: 25px;
+    border: 4px solid #ffffff;
+    float: left;
+    margin-right: 12px;
+    border-radius: 15px; }
+  .fwd-callback .fwd-check .fwd-confirm:after {
+    left: 9px;
+    top: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .fwd-callback .fwd-check p {
+    font-weight: 300;
+    margin-top: 15px;
+    font-size: 1em;
+    margin: 0; }
+  .fwd-callback .fwd-check a {
+    color: #e37826;
+    text-decoration: underline; }
+
+.fwd-calculate {
+  padding: 40px 0px;
+  background-color: #bce1e4;
+  height: 100%; }
+  .fwd-calculate .boxcal h4 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: "kittithada_bold_75_rd_proRg"; }
+  .fwd-calculate .boxcal .btn-group {
+    margin-bottom: 20px;
+    font-family: "kittithada_bold_75_rd_proRg";
+    font-size: 1em; }
+    .fwd-calculate .boxcal .btn-group img {
+      height: 45px; }
+    .fwd-calculate .boxcal .btn-group .btn {
+      width: 150px;
+      height: 45px;
+      border-radius: 30px;
+      font-size: 1.4em;
+      font-weight: bold; }
+      .fwd-calculate .boxcal .btn-group .btn:not(:last-child):not(.dropdown-toggle) {
+        border-radius: 30px; }
+    .fwd-calculate .boxcal .btn-group .diamond {
+      width: 16px;
+      height: 16px;
+      margin-top: 15px; }
+  .fwd-calculate .boxcal .group-age {
+    text-align: center; }
+    .fwd-calculate .boxcal .group-age h4 {
+      font-weight: bold; }
+    .fwd-calculate .boxcal .group-age p {
+      font-size: 1em;
+      font-weight: 300;
+      margin: 0;
+      line-height: 1.2em; }
+    .fwd-calculate .boxcal .group-age .txtresult {
+      font-family: "kittithada_bold_75_rd_proRg";
+      text-align: center;
+      font-size: 4.8em;
+      color: #e37826;
+      font-weight: bold;
+      line-height: 1.4em; }
+    .fwd-calculate .boxcal .group-age .txtresult_error {
+      font-family: "kittithada_bold_75_rd_proRg";
+      font-size: 3em;
+      line-height: 1.6em; }
+  .fwd-calculate .boxcal .btn-gender {
+    background-color: #ffffff;
+    margin: 0px 5px; }
+  .fwd-calculate .boxcal .active {
+    color: #fff !important;
+    background-color: #e37826 !important;
+    border-color: #e37826 !important; }
+
+.fwd-benefit {
+  padding: 40px 0px; }
+  .fwd-benefit .list-benefit ul {
+    padding: 0; }
+    .fwd-benefit .list-benefit ul li h3 {
+      color: #e37826;
+      font-size: 2.4em;
+      font-weight: bold;
+      margin-bottom: 0; }
+    .fwd-benefit .list-benefit ul li p {
+      font-size: 2.2em;
+      line-height: 1.1em; }
+    .fwd-benefit .list-benefit ul li ul {
+      list-style: none;
+      padding: 0; }
+      .fwd-benefit .list-benefit ul li ul li {
+        font-size: 2.2em;
+        line-height: 1.2em; }
+        .fwd-benefit .list-benefit ul li ul li:before {
+          content: "- ";
+          margin-right: 5px; }
+  .fwd-benefit .list-benefit .box-benefit {
+    margin-top: 20px;
+    min-height: 160px;
+    font-weight: bold; }
+    .fwd-benefit .list-benefit .box-benefit img {
+      margin: 0 auto;
+      display: block;
+      width: 100px; }
+    .fwd-benefit .list-benefit .box-benefit h4 {
+      font-size: 2.6em;
+      line-height: 1em;
+      font-weight: bold;
+      color: #e37826;
+      font-family: "kittithada_bold_75_rd_proRg"; }
+    .fwd-benefit .list-benefit .box-benefit p {
+      font-size: 1.4em;
+      line-height: 1.2em;
+      font-weight: 200;
+      margin: 0; }
+    .fwd-benefit .list-benefit .box-benefit ul {
+      list-style: none;
+      padding: 0; }
+      .fwd-benefit .list-benefit .box-benefit ul li {
+        font-size: 1.4em;
+        line-height: 1.2em;
+        font-weight: 200; }
+        .fwd-benefit .list-benefit .box-benefit ul li:before {
+          content: "- ";
+          margin-right: 5px; }
+
+.fwd-remark {
+  padding: 40px 0px;
+  background-color: #f47f28;
+  color: #ffffff; }
+  .fwd-remark p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    text-align: center;
+    font-weight: 200;
+    margin: 0; }
+
+.fwd-condition {
+  padding: 40px 0px; }
+  .fwd-condition ul {
+    padding: 0; }
+    .fwd-condition ul li {
+      font-size: 1.2em;
+      line-height: 1.4em;
+      font-weight: 200; }
+
+.fwd-contact {
+  padding: 40px 0px;
+  background-color: #324d50;
+  font-family: "kittithada_bold_75_rd_proRg";
+  color: #ffffff;
+  text-align: center; }
+  .fwd-contact h3 {
+    font-size: 2em; }
+  .fwd-contact a {
+    color: #ffffff; }
+
+/*@media (max-width: 575.98px)
+ * .fwd-navbar
+ * 	p
+ * 		font-size: 1.2em
+ * 		line-height: 1em
+ * 		padding-top: 15px
+ *
+ * .fwd-banner
+ * 	height: 200px
+ * 	background: url('../images/key/visual.jpg') no-repeat center
+ * 	background-size: 100% auto
+ * 	h4
+ * 		font-size: 1.8em
+ * 		line-height: 1em
+ * 		bottom: 2em
+ * 	p
+ * 		font-size: 1.4em
+ * 		line-height: 1em
+ *
+ * .btnSend
+ * 	padding: 2% 0%
+ * 	border: 2px solid #333333
+ * 	text-align: center
+ * 	border-radius: 30px
+ * 	font-size: 1.2em
+ *
+ * .section-title
+ * 	p
+ * 		font-size: 1.3em
+ *
+ * .fwd-feature
+ * 	.box-feature
+ * 		.txtfea
+ * 			h3
+ * 				font-size: 1.5em
+ * 				margin: 0
+ * 			p
+ * 				font-size: 1.3em
+ * 				line-height: 1.2em
+ * 				margin: 0
+ * .fwd-calculate
+ * 	padding: 40px 0px
+ * 	background-color: $colorblue
+ * 	.boxcal
+ * 		h4
+ * 			text-align: center
+ * 			font-weight: bold
+ * 		.group-calculate
+ * 			margin-bottom: 30px
+ * 		.group-age
+ * 			text-align: center
+ * 			h4
+ * 				font-weight: bold
+ * 			p
+ * 				font-size: 1.4em
+ * 				margin: 0
+ * 				line-height: 1em
+ * 			.txtresult
+ * 				text-align: center
+ * 				font-size: 9em
+ * 				color: $colororange
+ * 				font-weight: bold
+ * 				line-height: 0.8em
+ * 		.btn-group
+ * 			img
+ * 				height: 35px
+ * 			.btn
+ * 				width: 90px
+ * 				height: 35px
+ * 				border-radius: 30px
+ * 				font-size: 1em
+ * 				font-weight: bold
+ * 				&:not(:last-child):not(.dropdown-toggle)
+ * 					border-radius: 30px
+ * 			.diamond
+ * 				width: 8px
+ * 				height: 8px
+ * 				margin: auto 0
+ * 		.active
+ * 			color: #fff!important
+ * 			background-color: $colororange!important
+ * 			border-color: $colororange!important
+ *
+ * .fwd-callback
+ * 	padding: 40px 0px
+ * 	background-color: $coloryellow
+ * 	.fwd-check
+ * 		input[type=checkbox]
+ * 			opacity: 0
+ * 			position: absolute
+ * 			width: 25px
+ * 			height: 25px
+ * 		input[type=checkbox]:checked 
+ * 			~.fwd-confirm
+ * 				background-color: #cccccc
+ * 			~.fwd-confirm:after
+ * 				display: block
+ * 		.fwd-confirm
+ * 			width: 25px
+ * 			height: 25px
+ * 			border: 4px solid #ffffff
+ * 			float: left
+ * 			margin-right: 12px
+ * 			border-radius: 15px
+ * 		.fwd-confirm:after
+ * 			left: 9px
+ * 			top: 5px
+ * 			width: 6px
+ * 			height: 12px
+ * 			border: solid white
+ * 			border-width: 0 3px 3px 0
+ * 			-webkit-transform: rotate(45deg)
+ * 			-ms-transform: rotate(45deg)
+ * 			transform: rotate(45deg)
+ * 		p
+ * 			font-size: 1.5em
+ * 			line-height: 1em
+ * 		a
+ * 			color: $colororange
+ * 			text-decoration: underline
+ *
+ * .fwd-benefit
+ * 	padding: 40px 0px
+ * 	.list-benefit
+ * 		ul
+ * 			padding: 0
+ * 			li
+ * 				h3
+ * 					color: $colororange
+ * 					font-size: 1.4em
+ * 					font-weight: bold
+ * 				p
+ * 					font-size: 1.3em
+ * 					line-height: 1.1em
+ * 				ul
+ * 					list-style: none
+ * 					padding: 0
+ * 					li
+ * 						font-size: 1.2em
+ * 						line-height: 1.2em
+ * 						&:before
+ * 							content: "- "
+ * 							margin-right: 5px
+ * .fwd-remark
+ * 	padding: 40px 0px
+ * 	background-color: $colororange2
+ * 	color: #ffffff
+ * 	p
+ * 		font-size: 1.4em
+ * 		line-height: 1.1em
+ * 		text-align: center
+ * 		margin: 0
+ *
+ * .fwd-condition
+ * 	padding: 40px 0px
+ * 	ul
+ * 		padding: 0
+ * 		li
+ * 			font-size: 1.4em
+ * 			line-height: 1.2em
+ * .fwd-contact
+ * 	padding: 40px 0px
+ * 	background-color: $colorgreen
+ * 	text-align: center
+ * 	h3
+ * 		font-size: 1.2em */
